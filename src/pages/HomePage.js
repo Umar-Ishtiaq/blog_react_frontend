@@ -28,7 +28,7 @@ const HomePage = () => {
             <Row>
                 {posts.map((post)=>(
                     <Col md={4} className='mb-4' key={post._id}>
-                        <Card>
+                        <Card style={{width: "18rem"}}>
                         <Card.Img variant='top' src={post.image} alt={post.title}/>
                         <Card.Body>
                             <Card.Title>{post.title}</Card.Title>
